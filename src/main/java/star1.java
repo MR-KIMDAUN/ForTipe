@@ -7,7 +7,7 @@ public class star1 {
         int inc = num;
         int dec = num;
 
-        for (int i = 1; i <= (num*2)-1 ; i++ ){ // 5 -> 9
+        for (int i = 1; i <= (num*2)-1 ; i++ ){
             for(int j = 1; j <= inc; j++){
                 if(j < dec){
                     System.out.print(" ");
